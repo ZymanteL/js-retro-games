@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: #1f2f56;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  height: 240px;
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 50%;
+}
